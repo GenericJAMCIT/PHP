@@ -1,0 +1,28 @@
+<!----------------------------------------------------------
+------------------------------------------------------------
+---Author: John Meyer
+---Purpose: This HTML page is for Turnbull high library
+system. It creates the interface that retrieves books in the
+library database based on their format
+---Date:15/05/2020
+------------------------------------------------------------
+----------------------------------------------------------->
+<html>
+ <head>
+  <title>Library Search</title>
+ </head>
+ <body>
+  <h1>John's Library System</h1>
+  <h2>Search through our catalogue of books by type</h2>
+  <form action="LibrarySearch.php" method="get">
+   <label for="Booktype">Choose book type:</label><br />
+   <select name="Booktype">
+	  <option value="A">All</option>
+      <option value="H">Hardcover</option>
+      <option value="S">Softcover</option>
+	  <option value="D">Digital</option>
+   </select><br /><br />
+   <input type="submit" value="Search">
+  </form>
+ </body>
+</html>
